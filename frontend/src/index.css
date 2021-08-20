@@ -6,6 +6,7 @@ body {
   font: 1.6rem Helvetica;
   height: 100vh;
   margin: 0;
+  background: url(https://cdn.dribbble.com/users/3263235/screenshots/16246371/media/96a0e82d55199ba6ade0f97c292ba3b0.jpg?compress=1&resize=1200x900) ;
 }
 button {
   font-size: 1.6rem;
@@ -28,34 +29,34 @@ button {
 }
 .header {
   grid-area: header;
-  background-color: #203040;
-  color: #ffffff;
+  background:url(https://cdn.dribbble.com/users/3263235/screenshots/16246371/media/96a0e82d55199ba6ade0f97c292ba3b0.jpg?compress=1&resize=1200x900);
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
 }
 .brand a {
-  color: #ffffff;
+  color: black;
   font-size: 3rem;
   font-weight: bold;
   text-decoration: none;
 }
 .header-links a {
-  color: #ffffff;
+  color:black;
   text-decoration: none;
   padding: 1rem;
 }
 .header-links a:hover {
-  color: #ff8000;
+  color:plum;
 }
 .main {
   grid-area: main;
 }
 .footer {
   grid-area: footer;
-  background-color: #203040;
-  color: #ffffff;
+  background:url(https://cdn.dribbble.com/users/348925/screenshots/14206628/media/7cfc778ac50556379bb25f19ad030361.jpg?compress=1&resize=1200x900);
+  color:black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +65,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #ff8000;
+  color:black;
 }
 /* Home Screen */
 .products {
@@ -93,7 +94,7 @@ a:hover {
 }
 .product-brand {
   font-size: 1.2rem;
-  color: #808080;
+  color:pink;
 }
 .product-price {
   font-size: 2rem;
@@ -121,7 +122,7 @@ ul.review {
 
 /* Rating */
 .rating span {
-  color: #ffb901;
+  color:pink;
   font-size: 1.8rem;
   margin: 0.1rem;
 }
@@ -130,7 +131,7 @@ ul.review {
   font-size: 1.4rem;
 }
 a > .rating > span:last-child {
-  color: #0000ff;
+  color: black;
 }
 
 /* Sidebar */
@@ -220,10 +221,10 @@ a > .rating > span:last-child {
   cursor: pointer;
 }
 .button:hover {
-  border: 0.1rem #404040 solid;
+  border: 0.1rem  solid;
 }
 .button.primary {
-  background-color: #f0c040;
+  background:transparent;
 }
 .button.secondary {
   background-color: #f0f0f0;
@@ -238,6 +239,8 @@ a > .rating > span:last-child {
   flex-wrap: wrap;
   margin: 1rem;
   align-items: flex-start;
+  color: #000000;
+  text-decoration: none;
 }
 .cart-list {
   flex: 3 1 60rem;
@@ -348,8 +351,8 @@ tbody > tr:nth-child(odd) {
   padding-top: 1rem;
 }
 .checkout-steps > div.active {
-  border-top: 0.3rem #f08000 solid;
-  color: #f08000;
+  border-top: 0.3rem  solid;
+  color: black;
 }
 
 /* Place Order */
@@ -392,7 +395,7 @@ tbody > tr:nth-child(odd) {
 .placeorder-action > ul > li:last-child {
   font-size: 2rem;
   font-weight: bold;
-  color: #c04000;
+  color:black;
 }
 .placeorder-actions-payment > div {
   width: 100%;
